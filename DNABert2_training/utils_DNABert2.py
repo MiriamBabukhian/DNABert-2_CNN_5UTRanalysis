@@ -24,7 +24,9 @@ class FivePrimeSeqs(Dataset):
         
     labels_ids (:obj):
         store sequences labels 
- 
+
+   Returns:  
+      Vocabulary of tokenized input sequence and respective labels
   """
   def __init__(self, input_ids, tokenizer, labels): 
       
@@ -59,6 +61,8 @@ def train(dataloader, model, optimizer, scheduler, device):
 
       dataloader (:obj:`torch.utils.data.dataloader.DataLoader`):
           Parsed data into batches of tensors.
+
+      model (:obj:'our model')
 
       optimizer_ (:obj:`transformers.optimization.AdamW`):
           Optimizer used for training.
