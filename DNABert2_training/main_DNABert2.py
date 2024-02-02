@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Fri Feb  2 00:56:42 2024
-
 @author: miriambabukhian
 """
 from utils_DNABert2 import FivePrimeSeqs, train, validation, plot_ism_predictions, predict_wild_type, calculate_gc_percentage
