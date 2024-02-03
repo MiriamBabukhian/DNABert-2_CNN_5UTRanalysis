@@ -2,7 +2,7 @@ library(ggplot2)
 library(RColorBrewer)
 
 #Principal Component Analysis
-samples_all = read.csv2("/Users/miriambabukhian/Downloads/data_pca.csv")
+samples_all = read.csv2("data/data_pca.csv")
 samples_all = samples_all[,-c(2,3)]
 samples_all$origin <- gsub("\\s+", "", samples_all$origin)
 
