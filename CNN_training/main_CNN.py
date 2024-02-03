@@ -4,7 +4,7 @@
 @author: miriambabukhian
 """
 
-from functions_cnn import create_cnn_model, seq2code, plot_ism_predictions, one_hot_to_sequence, calculate_gc_percentage
+from utils_cnn import create_cnn_model, seq2code, plot_ism_predictions, one_hot_to_sequence, calculate_gc_percentage
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
