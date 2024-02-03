@@ -10,11 +10,13 @@ The code retrieves RNA/DNA sequences, performs differential expression analysis 
 
 The repository is divided over 3 folders: 
 
-##5UTR_Transcript_Analysis: 
+5UTR_Transcript_Analysis: 
 contains the data preprocessing steps, including retrieval of DNA/RNA sequences, Differential Expression analysis and PCA
-##DNABert2_training: 
+
+DNABert2_training: 
 contains main script and functions of DNABert-2, including in silico mutagensis and interpretation
-##CNN_training: 
+
+CNN_training: 
 contains main script and functions of the CNN,including in silico mutagensis
 
 ##Reusability: 
