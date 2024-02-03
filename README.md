@@ -3,6 +3,7 @@
 Contains the code used in the Major Research Project: "Unveiling Cryptic Regulatory Elements in 5’UTRs with DNABert-2: A Comparative Analysis with CNN Models" at Utrecht University.
 
 ##Project Overview
+
 The code retrieves RNA/DNA sequences, performs differential expression analysis for tissue-specific transcripts and passes the obtaines sequences through two models: DNABert-2 and a CNN. To interpret the model's decisions, in silico mutagensis is performed for both models, as well as Attention Scores Visualization for DNABert-2. 
 
 ##Code Structure 
