@@ -101,7 +101,7 @@ newdata <- newdata[, c("transcript_label", "sequence_split")]
 write.csv(newdata, "data//traindata_DNABert-DNA.csv", row.names=FALSE)
 
 
-# do a very ugly but effective thing, keep brain transcripts to 30 ncls long 
+# do a very ugly but effective thing, keep brain transcripts to 30 ncls long - ONLY run if sequences have to be of different lengths 
 df_brain <- newdata %>% filter(transcript_label == 1)
 
 # non brain transcripts have to be 40 nucleotides long 
