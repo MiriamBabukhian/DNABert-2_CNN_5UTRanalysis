@@ -234,9 +234,9 @@ def in_silico_mutagenesis(tokenizer, inputs, labels, model, device_):  #make sur
             
         inputs (:obj:`str`):
             input sequences.
-    
-       dataloader (:obj:`torch.utils.data.dataloader.DataLoader`):
-             Parsed data into batches of tensors.
+
+        Labels: 
+            List of labels
              
        model (:obj:'our model')
        device_ (:obj:`torch.device`):
