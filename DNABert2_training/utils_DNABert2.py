@@ -305,10 +305,8 @@ def predict_wild_type(tokenizer, inputs, labels, model, device_):
             
         inputs (:obj:`str`):
             input sequences.
-    
-       dataloader (:obj:`torch.utils.data.dataloader.DataLoader`):
-             Parsed data into batches of tensors.
-             
+       Labels: 
+            List of labels
        model (:obj:'our model')
        device_ (:obj:`torch.device`):
              Device used to load data before model training.
