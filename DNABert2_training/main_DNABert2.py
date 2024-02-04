@@ -170,7 +170,7 @@ print(evaluation_report)
 cm = confusion_matrix(true_labels, predictions_labels, normalize='pred')
 disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels= {'random': 0, '5UTR': 1})
 disp.plot(cmap='Blues')
-disp.ax_.set_title('Normalized Confusion Matrix-CNN')
+disp.ax_.set_title('Normalized Confusion Matrix-DNABert-2')
 disp.ax_.grid(False)
 plt.show()
     
